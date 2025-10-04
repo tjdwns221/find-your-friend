@@ -1,2 +1,28 @@
 # find-your-friend
 nasa app challenge - find your friend 팀 자료
+
+각 데이터셋 별 상관관계 분석
+
+
+### 목표 : disposition 예측
+## 1. k2pandc(K2 Planets and Candidates) https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=k2pandc
+
+#### 전처리 
+<img width="565" height="87" alt="image" src="https://github.com/user-attachments/assets/cc04f0b4-104a-4524-9615-ca0436a584b8" />
+
+<img width="293" height="147" alt="image" src="https://github.com/user-attachments/assets/76a85fdf-76cb-49bb-8153-0e3090baa84b" />
+이곳에서 refuted 제외(데이터 양이 너무 적음)
+
+<img width="918" height="418" alt="image" src="https://github.com/user-attachments/assets/5b2c44a8-623b-4f43-adfc-34e8c905dfd9" />
+외의 나머지 숫자형 데이터 사용
+
+추가로 결측치 높은 열 정리 
+<img width="915" height="150" alt="image" src="https://github.com/user-attachments/assets/dd0d1882-f035-4dfb-ad85-9f0a4a2cc75f" />
+
+## task1 : 이진분류 (confirmed, candidate 통합, false positve)
+<img width="878" height="19" alt="image" src="https://github.com/user-attachments/assets/1859a884-617c-457e-9826-a9e89fe53b1a" />
+
+## task2 : 다중분류 
+<img width="538" height="239" alt="image" src="https://github.com/user-attachments/assets/e010c5aa-8a82-497d-8832-b2cdaf4a9858" />
+
+## 2. cumulative 
